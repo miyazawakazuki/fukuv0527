@@ -36,5 +36,10 @@ namespace fukuv0527
         {
             label1.Left = label1.Left - 10;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("こんにちは");
+        }
     }
 }
